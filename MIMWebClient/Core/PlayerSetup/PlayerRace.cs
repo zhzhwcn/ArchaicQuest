@@ -47,7 +47,7 @@ namespace MIMWebClient.Core.PlayerSetup
 
             listOfRace.Add(new PlayerRace()
             {
-                name = "Human",
+                name = "人类",
                 str = 60,
                 inte = 60,
                 wis = 60,
@@ -60,7 +60,7 @@ namespace MIMWebClient.Core.PlayerSetup
 
             listOfRace.Add(new PlayerRace()
             {
-              name = "Elf",
+              name = "精灵",
               str = 35,
               inte = 82,
               wis = 82,
@@ -73,7 +73,7 @@ namespace MIMWebClient.Core.PlayerSetup
 
             listOfRace.Add(new PlayerRace()
             {
-                name = "Dark Elf",
+                name = "暗精灵",
                 str = 35,
                 inte = 81,
                 wis = 81,
@@ -86,7 +86,7 @@ namespace MIMWebClient.Core.PlayerSetup
 
             listOfRace.Add(new PlayerRace()
             {
-                name = "Dwarf",
+                name = "矮人",
                 str = 62,
                 inte = 52,
                 wis = 79,
@@ -99,7 +99,7 @@ namespace MIMWebClient.Core.PlayerSetup
 
             listOfRace.Add(new PlayerRace()
             {
-                name = "Mau",
+                name = "喵",
                 str = 30,
                 inte = 55,
                 wis = 70,
@@ -112,7 +112,7 @@ namespace MIMWebClient.Core.PlayerSetup
 
             listOfRace.Add(new PlayerRace()
             {
-                name = "Tlaloc",
+                name = "特拉洛克",
                 str = 51,
                 inte = 80,
                 wis = 67,

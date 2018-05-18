@@ -218,53 +218,53 @@ namespace MIMWebClient.Controllers
 
                 var Human = new InfoCount()
                 {
-                    Name = "Human",
+                    Name = "人类",
                     Value = 0
                 };
 
                 var Elf = new InfoCount()
                 {
-                    Name = "Elf",
+                    Name = "精灵",
                     Value = 0
                 };
 
                 var DarkElf = new InfoCount()
                 {
-                    Name = "Dark Elf",
+                    Name = "暗精灵",
                     Value = 0
                 };
 
                 var Dwarf = new InfoCount()
                 {
-                    Name = "Dwarf",
+                    Name = "矮人",
                     Value = 0
                 };
 
 
                 foreach (var player in col.FindAll())
                 {
-                    if (player.Race == "Human")
+                    if (player.Race == "人类")
                     {
                         Human.Value += 1;
 
                         continue;
                     }
 
-                    if (player.Race == "Elf")
+                    if (player.Race == "精灵")
                     {
                         Elf.Value += 1;
 
                         continue;
                     }
 
-                    if (player.Race == "Dark Elf")
+                    if (player.Race == "暗精灵")
                     {
                         DarkElf.Value += 1;
 
                         continue;
                     }
 
-                    if (player.SelectedClass == "Dwarf")
+                    if (player.SelectedClass == "矮人")
                     {
                         Dwarf.Value += 1;
 
@@ -295,13 +295,13 @@ namespace MIMWebClient.Controllers
 
                 var Male = new InfoCount()
                 {
-                    Name = "Male",
+                    Name = "男",
                     Value = 0
                 };
 
                 var Female = new InfoCount()
                 {
-                    Name = "Female",
+                    Name = "女",
                     Value = 0
                 };
  

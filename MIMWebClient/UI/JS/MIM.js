@@ -14,7 +14,7 @@
     //================================================================================
     // Global Variables for playerCreation
     //================================================================================
-    var race = "Human";
+    var race = "人类";
     var playerClass;
     var str;
     var dex;
@@ -88,7 +88,7 @@
             var statsBreadCrumb = $(".statsBreadCrumb");
 
             $("#RaceSelectedBtn").click(function () {
-                MIM.getClassInfo("fighter");
+                MIM.getClassInfo("战士");
                 raceStep.style.display = "none";
                 classStep.style.display = "block";
                 modelHeaderDiv.removeClass("active");
@@ -813,7 +813,7 @@
     $.connection.hub.start().done(function () {
 
         //// Load 1st race choice
-        MIM.getRaceInfo("human"); //set default;
+        MIM.getRaceInfo("人类"); //set default;
 
         /// send info to server
         MIM.sendMessageToServer();

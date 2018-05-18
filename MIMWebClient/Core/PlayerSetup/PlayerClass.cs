@@ -35,10 +35,10 @@ namespace MIMWebClient.Core.PlayerSetup
             string mageInfo = "  Mages are the most feared across the realm due to their devastating spells and power.\r\n   The road to such power is a hard, slow journey. Mages struggle more than other classes in melee combat because\r\n   They spent years studying magic and how to hurl a ball of fire towards their opponent instead of training for physical combat.\r\n   This makes mages relatively weak at the beginning of their training but this changes however when a they have mastered the arts of magic.\r\n   \r\n   \r\n   Important attributes for Mages are Intelligence, Wisdom and Dexterity\r\n   \r\n   Every race can train to be a mage but Elves are the best.\r\n";
             string mageImgURL = "/UI/img/human.jpg";
 
-            classList.Add(new PlayerClass("Fighter", fighterInfo, fighterImgURL));
-            classList.Add(new PlayerClass("Thief", thiefInfo, thiefImgURL));
-            classList.Add(new PlayerClass("Cleric", clericInfo, clericImgURL));
-            classList.Add(new PlayerClass("Mage", mageInfo, mageImgURL));
+            classList.Add(new PlayerClass("战士", fighterInfo, fighterImgURL));
+            classList.Add(new PlayerClass("盗贼", thiefInfo, thiefImgURL));
+            classList.Add(new PlayerClass("牧师", clericInfo, clericImgURL));
+            classList.Add(new PlayerClass("法师", mageInfo, mageImgURL));
 
 
             return classList;
